@@ -1,0 +1,110 @@
+{
+    "_ver": 20,
+    "name": "NEM",
+    "symbol": "XEM",
+    "website_url": [
+        "https://www.nem.io/",
+        "http://wiki.nem.io/index.php/Main_Page"
+    ],
+    "blockchain_explorer_url": [
+        "http://chain.nem.ninja/#/blocks/0"
+    ],
+    "nodes_explorer_url": [
+        "http://chain.nem.ninja/#/nodes/",
+        "https://www.nodeexplorer.com/index"
+    ],
+    "message_board_url": [
+        "https://forum.nem.io/"
+    ],
+    "twitter_url": [
+        "https://twitter.com/NEMofficial"
+    ],
+    "reddit_url": [
+        "https://www.reddit.com/r/nem/"
+    ],
+    "telegram_url": [
+        "https://t.me/nemred"
+    ],
+    "wikipedia_url": [
+        "https://en.wikipedia.org/wiki/NEM_(cryptocurrency)"
+    ],
+    "repo_url": [
+        "https://github.com/NemProject/nem.core"
+    ],
+    "whitepaper_url": [
+        "https://www.nem.io/NEM_techRef.pdf"
+    ],
+    "announcement_url": [
+        "https://bitcointalk.org/index.php?topic=654845.0"
+    ],
+    "max_supply": 8999999999,
+    "genesis_block_date": 1427576400,
+    "consensus": "proof-of-importance",
+    "hash_algo": "SHA3-256",
+    "block_time": 60,
+    "block_max_size": null,
+    "block_reward": 0,
+    "tx_per_second": 2,
+    "tx_min_fee": null,
+    "tx_anonymity": "never",
+    "core_lang": "Java",
+    "smart_contracts": "limited",
+    "blockchain_model": "account",
+    "masternode": true,
+    "masternode_deposit": 3000000,
+    "treasury": true,
+    "governance": false,
+    "wikipedia_description": "NEM is a peer-to-peer cryptocurrency and blockchain platform launched on March 31, 2015. Written in Java, with a C++ version in the works, NEM has a stated goal of a wide distribution model and has introduced new features to blockchain technology such as its proof-of-importance (POI) algorithm, multisignature accounts, encrypted messaging, and an Eigentrust++ reputation system. The NEM blockchain software is used in a commercial blockchain called Mijin, which is being tested by financial institutions and private companies in Japan and internationally.",
+    "references": {
+        "hash_algo": [
+            "https://www.nem.io/NEM_techRef.pdf"
+        ],
+        "blockchain_model": [
+            "https://www.nem.io/NEM_techRef.pdf"
+        ],
+        "max_supply": [
+            "https://www.nem.io/NEM_techRef.pdf"
+        ],
+        "genesis_block_date": [
+            "http://chain.nem.ninja/#/block/1"
+        ],
+        "block_time": [
+            "https://www.nem.io/NEM_techRef.pdf"
+        ],
+        "tx_per_second": [
+            "https://www.nem.io/NEM_techRef.pdf"
+        ],
+        "treasury": [
+            "https://forum.nem.io/t/nem-supernode-rewards-program/1735",
+            "https://blog.nem.io/update-sustainability-fund-final-redemption-numbers/"
+        ],
+        "masternode": [
+            "https://forum.nem.io/t/nem-supernode-rewards-program/1735"
+        ],
+        "masternode_deposit": [
+            "https://forum.nem.io/t/nem-supernode-rewards-program/1735"
+        ],
+        "smart_contracts": [
+            "https://blog.nem.io/ethereum-versus-nem-the-obvious-choice/"
+        ],
+        "tx_anonymity": [
+            "https://forum.nem.io/t/anonymous-transactions/649"
+        ],
+        "governance": [
+            "https://forum.nem.io/t/financing-nem-development-dash-style/3604/13"
+        ],
+        "consensus": [
+            "https://blog.nem.io/the-beginners-guide-to-nem/",
+            "https://blog.nem.io/what-are-poi-and-vesting/"
+        ],
+        "block_reward": [
+            "https://forum.nem.io/t/harvesting-blocks/4031/3"
+        ],
+        "core_lang": [
+            "https://github.com/NemProject/nem.core"
+        ],
+        "wikipedia_description": [
+            "https://en.wikipedia.org/wiki/NEM_(cryptocurrency)"
+        ]
+    }
+}

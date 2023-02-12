@@ -1,0 +1,81 @@
+{
+    "_ver": 20,
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "website_url": [
+        "https://www.ethereum.org"
+    ],
+    "blockchain_explorer_url": [
+        "https://live.ether.camp",
+        "https://etherscan.io"
+    ],
+    "nodes_explorer_url": [
+        "https://www.ethernodes.org/network/1",
+        "https://www.ethernodes.org/network/1/nodes"
+    ],
+    "message_board_url": [
+        "https://forum.ethereum.org"
+    ],
+    "twitter_url": [
+        "https://twitter.com/ethereumproject"
+    ],
+    "reddit_url": [
+        "https://www.reddit.com/r/ethereum/"
+    ],
+    "telegram_url": [],
+    "wikipedia_url": [
+        "https://en.wikipedia.org/wiki/Ethereum"
+    ],
+    "repo_url": [
+        "https://github.com/ethereum/go-ethereum"
+    ],
+    "whitepaper_url": [
+        "https://github.com/ethereum/wiki/wiki/White-Paper"
+    ],
+    "announcement_url": [],
+    "max_supply": "Inf",
+    "genesis_block_date": 1438203600,
+    "consensus": "proof-of-work",
+    "hash_algo": "Ethash",
+    "block_time": 15,
+    "block_max_size": "Inf",
+    "block_reward": 5,
+    "tx_per_second": 15,
+    "tx_min_fee": null,
+    "tx_anonymity": "never",
+    "core_lang": "go",
+    "smart_contracts": "rich",
+    "blockchain_model": "account",
+    "masternode": false,
+    "masternode_deposit": "NA",
+    "treasury": false,
+    "governance": false,
+    "wikipedia_description": "Ethereum is an open-source, public, blockchain-based distributed computing platform featuring smart contract (scripting) functionality, which facilitates online contractual agreements. It provides a decentralized Turing-complete virtual machine, the Ethereum Virtual Machine (EVM), which can execute scripts using an international network of public nodes. Ethereum also provides a cryptocurrency  token called \"ether\", which can be transferred between accounts and used to compensate participant nodes for computations performed. \"Gas\", an internal transaction pricing mechanism, is used to mitigate spam and allocate resources on the network. Ethereum was proposed in late 2013 by Vitalik Buterin, a cryptocurrency researcher and programmer. Development was funded by an online crowdsale during July–August 2014. The system went live on 30 July 2015, with 11.9 million coins \"premined\" for the crowdsale. This accounts for approximately 13 percent of the total circulating supply. In 2016 Ethereum was forked into two blockchains, as a result of the collapse of The DAO project. The majority fork has retained the name Ethereum (the subject of this article), and the second fork named Ethereum Classic.",
+    "references": {
+        "blockchain_model": [
+            "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53",
+            "https://github.com/ethereum/wiki/wiki/Design-Rationale"
+        ],
+        "consensus": [
+            "https://steemit.com/eth/@daut44/musings-on-ethereum-ethereum-classic"
+        ],
+        "masternode": [
+            "https://forum.ethereum.org/discussion/4393/is-ethereum-heading-towards-a-dash-masternode-type-of-format"
+        ],
+        "masternode_deposit": [
+            "https://forum.ethereum.org/discussion/4393/is-ethereum-heading-towards-a-dash-masternode-type-of-format"
+        ],
+        "tx_anonymity": [
+            "https://www.reddit.com/r/ethereum/comments/3uwo9y/anonymity_in_ethereum/"
+        ],
+        "treasury": [
+            "https://github.com/ethereum/wiki/wiki/White-Paper"
+        ],
+        "governance": [
+            "https://github.com/ethereum/wiki/wiki/White-Paper"
+        ],
+        "wikipedia_description": [
+            "https://en.wikipedia.org/wiki/Ethereum"
+        ]
+    }
+}

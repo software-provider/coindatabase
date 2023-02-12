@@ -1,0 +1,115 @@
+{
+    "_ver": 20,
+    "name": "Litecoin",
+    "symbol": "LTC",
+    "website_url": [
+        "https://litecoin.com",
+        "https://litecoin.org",
+        "https://litecoin.info"
+    ],
+    "blockchain_explorer_url": [
+        "http://explorer.litecoin.net/chain/Litecoin",
+        "https://chainz.cryptoid.info/ltc/",
+        "https://bitinfocharts.com/ru/litecoin/explorer/"
+    ],
+    "nodes_explorer_url": [
+        "https://bitinfocharts.com/litecoin/nodes/"
+    ],
+    "message_board_url": [
+        "https://litecointalk.io/"
+    ],
+    "twitter_url": [
+        "https://twitter.com/LitecoinProject"
+    ],
+    "reddit_url": [
+        "https://www.reddit.com/r/litecoin/"
+    ],
+    "telegram_url": [
+        "https://t.me/Litecoin"
+    ],
+    "wikipedia_url": [
+        "https://en.wikipedia.org/wiki/Litecoin"
+    ],
+    "repo_url": [
+        "https://github.com/litecoin-project/litecoin"
+    ],
+    "whitepaper_url": [
+        "https://litecoin.info/Litecoin",
+        "https://litecoin.info/User:Iddo/Comparison_between_Litecoin_and_Bitcoin"
+    ],
+    "announcement_url": [],
+    "max_supply": 84000000,
+    "genesis_block_date": 1318017600,
+    "consensus": "proof-of-work",
+    "hash_algo": "scrypt",
+    "block_time": 150,
+    "block_max_size": 1048576,
+    "block_reward": 25,
+    "tx_per_second": null,
+    "tx_min_fee": 0.001,
+    "tx_anonymity": "never",
+    "core_lang": "C++",
+    "smart_contracts": "limited",
+    "blockchain_model": "UTXO",
+    "masternode": false,
+    "masternode_deposit": "NA",
+    "treasury": false,
+    "governance": false,
+    "wikipedia_description": "Litecoin (LTC or Ł) is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Creation and transfer of coins is based on an open source cryptographic protocol and is not managed by any central authority. While inspired by, and in most regards technically nearly identical to Bitcoin (BTC), Litecoin has some technical improvements over Bitcoin, and most other major cryptocurrencies, such as the adoption of Segregated Witness, and the Lightning Network. These effectively allow a greater amount of transactions to be processed by the network in a given time, reducing potential bottlenecks, as seen with Bitcoin. Litecoin also has almost zero payment cost and facilitates payments approximately four times faster than Bitcoin.",
+    "references": {
+        "max_supply": [
+            "https://litecoin.info/Litecoin"
+        ],
+        "consensus": [
+            "https://litecoin.info/Litecoin"
+        ],
+        "hash_algo": [
+            "https://litecoin.info/Litecoin",
+            "https://litecoin.info/Scrypt"
+        ],
+        "block_time": [
+            "https://litecoin.info/Litecoin"
+        ],
+        "block_max_size": [
+            "https://www.reddit.com/r/litecoin/comments/523jlw/does_litecoin_have_a_blocksize_limit/"
+        ],
+        "block_reward": [
+            "https://bitinfocharts.com/ru/litecoin/explorer/"
+        ],
+        "core_lang": [
+            "https://github.com/litecoin-project/litecoin"
+        ],
+        "tx_min_fee": [
+            "https://litecoin.info/Transaction_fees"
+        ],
+        "genesis_block_date": [
+            "https://chainz.cryptoid.info/ltc/block.dws?1.htm"
+        ],
+        "blockchain_model": [
+            "https://bitcointalk.org/index.php?topic=1625340.0"
+        ],
+        "smart_contracts": [
+            "https://github.com/litecoin-project/litecoin/pull/279"
+        ],
+        "masternode": [
+            "https://litecoin.info/Litecoin"
+        ],
+        "masternode_deposit": [
+            "https://litecoin.info/Litecoin"
+        ],
+        "tx_anonymity": [
+            "https://bitcoin.org/en/you-need-to-know",
+            "https://www.reddit.com/r/litecoin/comments/53c0v6/confidential_transaction_for_litecoin/",
+            "https://bitcoin.stackexchange.com/questions/18946/is-it-possible-to-launder-bitcoin-by-exchanging-it-for-litecoin-and-then-back-to"
+        ],
+        "treasury": [
+            "https://litecoin.info/User:Iddo/Comparison_between_Litecoin_and_Bitcoin"
+        ],
+        "governance": [
+            "https://litecoin.info/User:Iddo/Comparison_between_Litecoin_and_Bitcoin"
+        ],
+        "wikipedia_description": [
+            "https://en.wikipedia.org/wiki/Litecoin"
+        ]
+    }
+}

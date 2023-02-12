@@ -1,0 +1,7 @@
+*.pyc
+*.swp
+*.swo
+*.orig
+*.egg-info/
+/var/
+/.cache/

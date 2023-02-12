@@ -1,0 +1,283 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z ]+[A-Za-z]$"
+        },
+        "symbol": {
+            "type": "string",
+            "pattern": "^[A-Z]{3,10}$"
+        },
+        "website_url": {
+            "$ref": "#/definitions/list-of-urls"
+        },
+        "blockchain_explorer_url": {
+            "$ref": "#/definitions/list-of-urls"
+        },
+        "announcement_url": {
+            "$ref": "#/definitions/list-of-urls"
+        },
+        "nodes_explorer_url": {
+            "$ref": "#/definitions/list-of-urls"
+        },
+        "message_board_url": {
+            "$ref": "#/definitions/list-of-urls"
+        },
+        "twitter_url": {
+            "$ref": "#/definitions/list-of-urls"
+        },
+        "reddit_url": {
+            "$ref": "#/definitions/list-of-urls"
+        },
+        "wikipedia_url": {
+            "$ref": "#/definitions/list-of-urls"
+        },
+        "repo_url": {
+            "$ref": "#/definitions/list-of-urls"
+        },
+        "whitepaper_url": {
+            "$ref": "#/definitions/list-of-urls"
+        },
+        "telegram_url": {
+            "$ref": "#/definitions/list-of-urls"
+        },
+        "max_supply": {
+            "$ref": "#/definitions/extended_number"
+        },
+        "genesis_block_date": {
+            "type": "string"
+        },
+        "consensus": {
+            "oneOf": [
+                {"$ref": "#/definitions/consensus_type"},
+                {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/defintions/consensus_type"
+                    }
+                },
+                {
+                    "type": "string",
+                    "enum": ["NA", "?"]
+                }
+            ]
+        },
+        "blockchain_model": {
+            "oneOf": [
+                {"$ref": "#/definitions/blockchain_model_type"},
+                {
+                    "type": "string",
+                    "enum": ["NA", "?"]
+                }
+            ]
+        },
+        "hash_algo": {
+            "type": "string"
+        },
+        "block_time": {
+            "$ref": "#/definitions/extended_number"
+        },
+        "tx_min_fee": {
+            "$ref": "#/definitions/extended_number"
+        },
+        "block_max_size": {
+            "$ref": "#/definitions/data_size"
+        },
+        "block_reward": {
+            "$ref": "#/definitions/extended_number"
+        },
+        "tx_per_second": {
+            "$ref": "#/definitions/extended_number"
+        },
+        "core_lang": {
+            "type": "string"
+        },
+        "smart_contracts": {
+            "oneOf": [
+                {"$ref": "#/definitions/smart_contracts_type"},
+                {
+                    "type": "string",
+                    "enum": ["NA", "?"]
+                }
+            ]
+        },
+        "tx_anonymity": {
+            "oneOf": [
+                {"$ref": "#/definitions/tx_anonymity_type"},
+                {
+                    "type": "string",
+                    "enum": ["NA", "?"]
+                }
+            ]
+        },
+        "masternode": {
+            "$ref": "#/definitions/extended_boolean"
+        },
+        "masternode_deposit": {
+            "$ref": "#/definitions/extended_number"
+        },
+        "treasury": {
+            "$ref": "#/definitions/extended_boolean"
+        },
+        "governance": {
+            "$ref": "#/definitions/extended_boolean"
+        },
+        "wikipedia_description": {
+            "$ref": "#/definitions/extended_string"
+        },
+        "references": {
+            "type": "object",
+            "properties": {
+                "name": {"$ref": "#/definitions/list-of-urls"},
+                "symbol": {"$ref": "#/definitions/list-of-urls"},
+                "website_url": {"$ref": "#/definitions/list-of-urls"},
+                "blockchain_explorer_url": {"$ref": "#/definitions/list-of-urls"},
+                "announcement_url": {"$ref": "#/definitions/list-of-urls"},
+                "nodes_explorer_url": {"$ref": "#/definitions/list-of-urls"},
+                "message_board_url": {"$ref": "#/definitions/list-of-urls"},
+                "twitter_url": {"$ref": "#/definitions/list-of-urls"},
+                "reddit_url": {"$ref": "#/definitions/list-of-urls"},
+                "wikipedia_url": {"$ref": "#/definitions/list-of-urls"},
+                "repo_url": {"$ref": "#/definitions/list-of-urls"},
+                "whitepaper_url": {"$ref": "#/definitions/list-of-urls"},
+                "telegram_url": {"$ref": "#/definitions/list-of-urls"},
+                "max_supply": {"$ref": "#/definitions/list-of-urls"},
+                "genesis_block_date": {"$ref": "#/definitions/list-of-urls"},
+                "consensus": {"$ref": "#/definitions/list-of-urls"},
+                "hash_algo": {"$ref": "#/definitions/list-of-urls"},
+                "block_time": {"$ref": "#/definitions/list-of-urls"},
+                "block_max_size": {"$ref": "#/definitions/list-of-urls"},
+                "block_reward": {"$ref": "#/definitions/list-of-urls"},
+                "tx_per_second": {"$ref": "#/definitions/list-of-urls"},
+                "core_lang": {"$ref": "#/definitions/list-of-urls"},
+                "smart_contracts": {"$ref": "#/definitions/list-of-urls"},
+                "tx_anonymity": {"$ref": "#/definitions/list-of-urls"},
+                "tx_min_fee": {"$ref": "#/definitions/list-of-urls"},
+                "blockchain_model": {"$ref": "#/definitions/list-of-urls"},
+                "masternode": {"$ref": "#/definitions/list-of-urls"},
+                "masternode_deposit": {"$ref": "#/definitions/list-of-urls"},
+                "treasury": {"$ref": "#/definitions/list-of-urls"},
+                "governance": {"$ref": "#/definitions/list-of-urls"},
+                "wikipedia_description": {"$ref": "#/definitions/list-of-urls"}
+            },
+            "additionalProperties": false
+        }
+    },
+    "definitions": {
+        "extended_number": {
+            "oneOf": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "string",
+                    "pattern": "^\\d(?:[.\\d]*\\d)?(K|M|B)"
+                },
+                {
+                    "type": "string",
+                    "enum": ["NA", "?", "Inf"]
+                }
+            ]
+        },
+        "extended_boolean": {
+            "oneOf": [
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "string",
+                    "enum": ["NA", "?"]
+                }
+            ]
+        },
+        "extended_string": {
+            "oneOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "string",
+                    "enum": ["NA", "?"]
+                }
+            ]
+        },
+        "data_size": {
+            "oneOf": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "string",
+                    "pattern": "^\\d+(KB|MB|GB)"
+                },
+                {
+                    "type": "string",
+                    "enum": ["NA", "?", "Inf"]
+                }
+            ]
+        },
+        "smart_contracts_type": {
+            "type": "string",
+            "enum": ["none", "limited", "rich"]
+        },
+        "tx_anonymity_type": {
+            "type": "string",
+            "enum": ["never", "optional", "always"]
+        },
+        "consensus_type": {
+            "type": "string",
+            "enum": ["proof-of-work", "proof-of-stake", "proof-of-importance"]
+        },
+        "blockchain_model_type": {
+            "type": "string",
+            "enum": ["UTXO", "account"]
+        },
+        "list-of-urls": {
+            "type": "array",
+            "minItems": 0,
+            "maxItems": 3,
+            "items": {
+                "type": "string",
+                "pattern": "^https?://.+"
+            }
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "name",
+        "symbol",
+        "website_url",
+        "blockchain_explorer_url",
+        "announcement_url",
+        "nodes_explorer_url",
+        "message_board_url",
+        "twitter_url",
+        "reddit_url",
+        "wikipedia_url",
+        "repo_url",
+        "whitepaper_url",
+        "telegram_url",
+        "max_supply",
+        "genesis_block_date",
+        "consensus",
+        "hash_algo",
+        "block_time",
+        "block_max_size",
+        "block_reward",
+        "tx_per_second",
+        "tx_min_fee",
+        "tx_anonymity",
+        "core_lang",
+        "smart_contracts",
+        "blockchain_model",
+        "references",
+        "masternode",
+        "masternode_deposit",
+        "treasury",
+        "governance",
+        "wikipedia_description"
+    ]
+}
+

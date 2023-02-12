@@ -1,0 +1,86 @@
+{
+    "_ver": 20,
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "website_url": [
+        "https://bitcoin.org",
+        "https://www.bitcoin.com"
+    ],
+    "blockchain_explorer_url": [
+        "https://blockchain.info",
+        "https://chainquery.com/bitcoin-api",
+        "https://www.walletexplorer.com"
+    ],
+    "nodes_explorer_url": [
+        "https://coin.dance/nodes",
+        "https://bitnodes.21.co"
+    ],
+    "message_board_url": [
+        "https://bitcointalk.org",
+        "https://forum.bitcoin.com"
+    ],
+    "twitter_url": [
+        "https://twitter.com/Bitcoin"
+    ],
+    "reddit_url": [
+        "https://www.reddit.com/r/Bitcoin"
+    ],
+    "telegram_url": [
+        "https://t.me/BitcoinCore"
+    ],
+    "wikipedia_url": [
+        "https://en.wikipedia.org/wiki/Bitcoin"
+    ],
+    "repo_url": [
+        "https://github.com/bitcoin/bitcoin"
+    ],
+    "whitepaper_url": [
+        "https://bitcoin.org/bitcoin.pdf"
+    ],
+    "announcement_url": [],
+    "max_supply": 21000000,
+    "genesis_block_date": 1230930000,
+    "consensus": "proof-of-work",
+    "hash_algo": "SHA-256",
+    "block_time": 600,
+    "block_max_size": 1048576,
+    "block_reward": 12.5,
+    "tx_per_second": 7,
+    "tx_min_fee": null,
+    "tx_anonymity": "never",
+    "core_lang": "C++",
+    "smart_contracts": "limited",
+    "blockchain_model": "UTXO",
+    "masternode": false,
+    "masternode_deposit": "NA",
+    "treasury": false,
+    "governance": false,
+    "wikipedia_description": "Bitcoin is a cryptocurrency and a digital payment system invented by an unknown programmer, or a group of programmers, under the name Satoshi Nakamoto. It was released as open-source software in 2009. The system is peer-to-peer, and transactions take place between users directly, without an intermediary. These transactions are verified by network nodes and recorded in a public distributed ledger called a blockchain. Since the system works without a central repository or single administrator, bitcoin is called the first decentralized digital currency. Besides being created as a reward for mining, bitcoin can be exchanged for other currencies, products, and services in legal or black markets. As of February 2015, over 100,000 merchants and vendors accepted bitcoin as payment. According to research produced by Cambridge University in 2017, there are 2.9 to 5.8 million unique users using a cryptocurrency wallet, most of them using bitcoin.",
+    "references": {
+        "blockchain_model": [
+            "https://bitcoin.stackexchange.com/a/20623",
+            "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53",
+            "https://github.com/ethereum/wiki/wiki/Design-Rationale"
+        ],
+        "smart_contracts": [
+            "https://en.bitcoin.it/wiki/Script"
+        ],
+        "masternode": [
+            "https://bitcoin.org/bitcoin.pdf"
+        ],
+        "masternode_deposit": [
+            "https://bitcoin.org/bitcoin.pdf"
+        ],
+        "tx_anonymity": [
+            "https://bitcoin.org/en/you-need-to-know",
+            "https://bitcoin.org/en/protect-your-privacy",
+            "https://en.bitcoin.it/wiki/Anonymity"
+        ],
+        "treasury": [
+            "https://bitcoin.org/bitcoin.pdf"
+        ],
+        "governance": [
+            "https://bitcoin.org/bitcoin.pdf"
+        ]
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "name": "Ethereum Classic",
+    "symbol": "ETC",
+    "website_url": [
+        "https://ethereumclassic.github.io"
+    ],
+    "blockchain_explorer_url": [
+        "https://gastracker.io/",
+        "https://etcchain.com/explorer",
+        "http://etherhub.io/home"
+    ],
+    "nodes_explorer_url": [],
+    "message_board_url": [],
+    "twitter_url": [
+        "https://twitter.com/eth_classic"
+    ],
+    "reddit_url": [
+        "https://www.reddit.com/r/EthereumClassic/"
+    ],
+    "telegram_url": [
+        "https://telegram.me/ethclassic"
+    ],
+    "wikipedia_url": [
+        "https://en.wikipedia.org/wiki/Ethereum_Classic"
+    ],
+    "repo_url": [
+        "https://github.com/ethereumproject/go-ethereum"
+    ],
+    "whitepaper_url": [
+        "https://github.com/ethereum/wiki/wiki/White-Paper"
+    ],
+    "announcement_url": [
+        "https://bitcointalk.org/index.php?topic=1559630.0"
+    ],
+    "max_supply": "Inf",
+    "genesis_block_date": "2015-07-30",
+    "consensus": "proof-of-work",
+    "hash_algo": "Ethash",
+    "block_time": 15,
+    "block_max_size": "Inf",
+    "block_reward": 5,
+    "tx_per_second": 15,
+    "tx_min_fee": "?",
+    "tx_anonymity": "never",
+    "core_lang": "go",
+    "smart_contracts": "rich",
+    "blockchain_model": "account",
+    "masternode": false,
+    "masternode_deposit": "NA",
+    "treasury": false,
+    "governance": false,
+    "wikipedia_description": "Ethereum Classic is an open-source, public, blockchain-based distributed computing platform featuring smart contract (scripting) functionality. It provides a decentralized Turing-complete virtual machine, the Ethereum Virtual Machine (EVM), which can execute scripts using an international network of public nodes. Ethereum Classic also provides a value token called \"classic ether\", which can be transferred between participants and is used to compensate participant nodes for computations performed. The classic ether token is traded on cryptocurrency exchanges under the code ETC. Gas, an internal transaction pricing mechanism, is used to prevent spam on the network and allocate resources proportionally to the incentive offered by the request.",
+    "references": {
+        "blockchain_model": [
+            "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53",
+            "https://github.com/ethereum/wiki/wiki/Design-Rationale"
+        ],
+        "max_supply": [
+            "https://www.etcdevteam.com/blog/articles/a-joint-statement-ecip1017.html"
+        ],
+        "genesis_block_date": [
+            "https://gastracker.io/block/1"
+        ],
+        "consensus": [
+            "https://steemit.com/eth/@daut44/musings-on-ethereum-ethereum-classic",
+            "http://ethereum-classic-guide.readthedocs.io/en/latest/mining.html"
+        ],
+        "hash_algo": [
+            "http://ethereum-classic-guide.readthedocs.io/en/latest/mining.html",
+            "https://github.com/ethereum/wiki/wiki/Ethash"
+        ],
+        "block_time": [
+            "http://ethereum-classic-guide.readthedocs.io/en/latest/mining.html"
+        ],
+        "block_max_size": [
+            "https://ethereum.stackexchange.com/questions/1106/is-there-a-limit-for-transaction-size/1110#1110"
+        ],
+        "block_reward": [
+            "https://www.cryptocompare.com/coins/etc/overview/BTC"
+        ],
+        "tx_per_second": [
+            "https://medium.com/@yobanjo/ethereum-wont-scale-like-you-ve-been-told-cae445bef539"
+        ],
+        "core_lang": [
+            "https://github.com/ethereumproject/go-ethereum"
+        ],
+        "smart_contracts": [
+            "https://github.com/ethereumclassic/faq#user-content-what-is-a-smart-contract"
+        ],
+        "masternode": [
+            "https://ethereum-classic-guide.readthedocs.io/en/latest/network/connecting-to-the-network.html#the-ethereum-network"
+        ],
+        "masternode_deposit": [
+            "https://ethereum-classic-guide.readthedocs.io/en/latest/network/connecting-to-the-network.html#the-ethereum-network"
+        ],
+        "tx_anonymity": [
+            "https://www.reddit.com/r/ethereum/comments/3uwo9y/anonymity_in_ethereum/"
+        ],
+        "treasury": [
+            "https://github.com/ethereum/wiki/wiki/White-Paper"
+        ],
+        "governance": [
+            "https://github.com/ethereum/wiki/wiki/White-Paper"
+        ],
+        "wikipedia_description": [
+            "https://en.wikipedia.org/wiki/Ethereum_Classic"
+        ]
+    }
+}

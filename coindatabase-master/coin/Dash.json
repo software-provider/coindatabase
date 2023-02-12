@@ -1,0 +1,121 @@
+{
+    "name": "Dash",
+    "symbol": "DASH",
+    "website_url": [
+        "https://www.dash.org",
+        "http://dashorg64cjvj4s3.onion",
+        "https://dashpay.atlassian.net/wiki"
+    ],
+    "blockchain_explorer_url": [
+        "https://explorer.dash.org/chain/Dash",
+        "https://chainz.cryptoid.info/dash/",
+        "https://bitinfocharts.com/dash/explorer/"
+    ],
+    "nodes_explorer_url": [
+        "https://chainz.cryptoid.info/dash/masternodes.dws",
+        "https://bitinfocharts.com/dash/nodes-active/",
+        "https://www.dashninja.pl/masternodes.html"
+    ],
+    "message_board_url": [
+        "https://www.dash.org/forum/"
+    ],
+    "twitter_url": [
+        "https://twitter.com/Dashpay"
+    ],
+    "reddit_url": [
+        "http://www.reddit.com/r/dashpay/"
+    ],
+    "telegram_url": [
+        "https://t.me/DashDigitalCash"
+    ],
+    "wikipedia_url": [
+        "https://en.wikipedia.org/wiki/Dash_(cryptocurrency)"
+    ],
+    "repo_url": [
+        "https://github.com/dashpay/dash"
+    ],
+    "whitepaper_url": [
+        "https://www.dash.org/wp-content/uploads/2015/04/Dash-WhitepaperV1.pdf",
+        "https://github.com/dashpay/dash/wiki/Whitepaper",
+        "https://www.dash.org/binaries/evo/DashPaper-v13-v1.pdf"
+    ],
+    "announcement_url": [
+        "https://bitcointalk.org/index.php?topic=421615.0"
+    ],
+    "max_supply": "18.6M",
+    "genesis_block_date": "2014-01-19",
+    "consensus": "proof-of-work",
+    "hash_algo": "X11",
+    "block_time": 150,
+    "block_max_size": "1MB",
+    "block_reward": 3.6,
+    "tx_per_second": 28,
+    "tx_min_fee": 0,
+    "tx_anonymity": "optional",
+    "core_lang": "C++",
+    "smart_contracts": "limited",
+    "blockchain_model": "UTXO",
+    "masternode": true,
+    "masternode_deposit": 1000,
+    "treasury": true,
+    "governance": true,
+    "wikipedia_description": "Dash (formerly known as Darkcoin and XCoin) is an open source peer-to-peer cryptocurrency that offers all the same features as Bitcoin but also has advanced capabilities, including instant transactions (InstantSend), private transactions (PrivateSend), and decentralized governance (DGBB). Dash's decentralized governance and budgeting system makes it the first decentralized autonomous organization. Dash uses a two-tier architecture to power its network. The first tier consists of miners who secure the network and write transactions to the blockchain. The second tier consists of masternodes which enable the advanced features of Dash.",
+    "references": {
+        "genesis_block_date": [
+            "https://chainz.cryptoid.info/dash/block.dws?1.htm"
+        ],
+        "hash_algo": [
+            "https://www.dash.org/wp-content/uploads/2015/04/Dash-WhitepaperV1.pdf"
+        ],
+        "consensus": [
+            "https://www.reddit.com/r/dashpay/comments/5zdmom/why_is_dash_not_considered_pos/"
+        ],
+        "max_supply": [
+            "https://dash.org.ru/pages/emission.php",
+            "https://www.dashtreasury.org/faq-general.html"
+        ],
+        "block_time": [
+            "https://www.reddit.com/r/dashpay/comments/3yt70h/so_i_have_to_ask_the_question_what_is_dashs/"
+        ],
+        "block_max_size": [
+            "https://www.reddit.com/r/dashpay/comments/3yt70h/so_i_have_to_ask_the_question_what_is_dashs/"
+        ],
+        "block_reward": [
+            "https://bitinfocharts.com/dash/explorer/"
+        ],
+        "tx_per_second": [
+            "https://www.reddit.com/r/dashpay/comments/5yw0yy/how_many_transactions_per_second_can_dash_handle/"
+        ],
+        "tx_min_fee": [
+            "https://www.reddit.com/r/dashpay/comments/5yw0yy/how_many_transactions_per_second_can_dash_handle/"
+        ],
+        "core_lang": [
+            "https://github.com/dashpay/dash"
+        ],
+        "smart_contracts": [
+            "https://github.com/dashpay/bitcore-lib-dash/blob/master/docs/script.md"
+        ],
+        "blockchain_model": [
+            "https://github.com/dashpay/dash/wiki/Whitepaper"
+        ],
+        "masternode": [
+            "https://github.com/dashpay/dash/wiki/Whitepaper"
+        ],
+        "masternode_deposit": [
+            "https://github.com/dashpay/dash/wiki/Whitepaper"
+        ],
+        "tx_anonymity": [
+            "https://www.dash.org/darksend/"
+        ],
+        "governance": [
+            "https://www.dash.org/forum/threads/self-sustainable-decentralized-governance-by-blockchain.4708/",
+            "https://dashvotetracker.com/"
+        ],
+        "treasury": [
+            "https://www.dashtreasury.org/"
+        ],
+        "wikipedia_description": [
+            "https://en.wikipedia.org/wiki/Dash_(cryptocurrency)"
+        ]
+    }
+}

@@ -1,0 +1,715 @@
+{
+    "_ver": 20,
+    "date": "2017-07-26T11:13:47",
+    "items": [
+        {
+            "_ver": 20,
+            "name": "NEM",
+            "symbol": "XEM",
+            "website_url": [
+                "https://www.nem.io/",
+                "http://wiki.nem.io/index.php/Main_Page"
+            ],
+            "blockchain_explorer_url": [
+                "http://chain.nem.ninja/#/blocks/0"
+            ],
+            "nodes_explorer_url": [
+                "http://chain.nem.ninja/#/nodes/",
+                "https://www.nodeexplorer.com/index"
+            ],
+            "message_board_url": [
+                "https://forum.nem.io/"
+            ],
+            "twitter_url": [
+                "https://twitter.com/NEMofficial"
+            ],
+            "reddit_url": [
+                "https://www.reddit.com/r/nem/"
+            ],
+            "telegram_url": [
+                "https://t.me/nemred"
+            ],
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/NEM_(cryptocurrency)"
+            ],
+            "repo_url": [
+                "https://github.com/NemProject/nem.core"
+            ],
+            "whitepaper_url": [
+                "https://www.nem.io/NEM_techRef.pdf"
+            ],
+            "announcement_url": [
+                "https://bitcointalk.org/index.php?topic=654845.0"
+            ],
+            "max_supply": 8999999999,
+            "genesis_block_date": 1427576400,
+            "consensus": "proof-of-importance",
+            "hash_algo": "SHA3-256",
+            "block_time": 60,
+            "block_max_size": null,
+            "block_reward": 0,
+            "tx_per_second": 2,
+            "tx_min_fee": null,
+            "tx_anonymity": "never",
+            "core_lang": "Java",
+            "smart_contracts": "limited",
+            "blockchain_model": "account",
+            "masternode": true,
+            "masternode_deposit": 3000000,
+            "treasury": true,
+            "governance": false,
+            "wikipedia_description": "NEM is a peer-to-peer cryptocurrency and blockchain platform launched on March 31, 2015. Written in Java, with a C++ version in the works, NEM has a stated goal of a wide distribution model and has introduced new features to blockchain technology such as its proof-of-importance (POI) algorithm, multisignature accounts, encrypted messaging, and an Eigentrust++ reputation system. The NEM blockchain software is used in a commercial blockchain called Mijin, which is being tested by financial institutions and private companies in Japan and internationally.",
+            "references": {
+                "hash_algo": [
+                    "https://www.nem.io/NEM_techRef.pdf"
+                ],
+                "blockchain_model": [
+                    "https://www.nem.io/NEM_techRef.pdf"
+                ],
+                "max_supply": [
+                    "https://www.nem.io/NEM_techRef.pdf"
+                ],
+                "genesis_block_date": [
+                    "http://chain.nem.ninja/#/block/1"
+                ],
+                "block_time": [
+                    "https://www.nem.io/NEM_techRef.pdf"
+                ],
+                "tx_per_second": [
+                    "https://www.nem.io/NEM_techRef.pdf"
+                ],
+                "treasury": [
+                    "https://forum.nem.io/t/nem-supernode-rewards-program/1735",
+                    "https://blog.nem.io/update-sustainability-fund-final-redemption-numbers/"
+                ],
+                "masternode": [
+                    "https://forum.nem.io/t/nem-supernode-rewards-program/1735"
+                ],
+                "masternode_deposit": [
+                    "https://forum.nem.io/t/nem-supernode-rewards-program/1735"
+                ],
+                "smart_contracts": [
+                    "https://blog.nem.io/ethereum-versus-nem-the-obvious-choice/"
+                ],
+                "tx_anonymity": [
+                    "https://forum.nem.io/t/anonymous-transactions/649"
+                ],
+                "governance": [
+                    "https://forum.nem.io/t/financing-nem-development-dash-style/3604/13"
+                ],
+                "consensus": [
+                    "https://blog.nem.io/the-beginners-guide-to-nem/",
+                    "https://blog.nem.io/what-are-poi-and-vesting/"
+                ],
+                "block_reward": [
+                    "https://forum.nem.io/t/harvesting-blocks/4031/3"
+                ],
+                "core_lang": [
+                    "https://github.com/NemProject/nem.core"
+                ],
+                "wikipedia_description": [
+                    "https://en.wikipedia.org/wiki/NEM_(cryptocurrency)"
+                ]
+            }
+        },
+        {
+            "_ver": 20,
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "website_url": [
+                "https://bitcoin.org",
+                "https://www.bitcoin.com"
+            ],
+            "blockchain_explorer_url": [
+                "https://blockchain.info",
+                "https://chainquery.com/bitcoin-api",
+                "https://www.walletexplorer.com"
+            ],
+            "nodes_explorer_url": [
+                "https://coin.dance/nodes",
+                "https://bitnodes.21.co"
+            ],
+            "message_board_url": [
+                "https://bitcointalk.org",
+                "https://forum.bitcoin.com"
+            ],
+            "twitter_url": [
+                "https://twitter.com/Bitcoin"
+            ],
+            "reddit_url": [
+                "https://www.reddit.com/r/Bitcoin"
+            ],
+            "telegram_url": [
+                "https://t.me/BitcoinCore"
+            ],
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/Bitcoin"
+            ],
+            "repo_url": [
+                "https://github.com/bitcoin/bitcoin"
+            ],
+            "whitepaper_url": [
+                "https://bitcoin.org/bitcoin.pdf"
+            ],
+            "announcement_url": [],
+            "max_supply": 21000000,
+            "genesis_block_date": 1230930000,
+            "consensus": "proof-of-work",
+            "hash_algo": "SHA-256",
+            "block_time": 600,
+            "block_max_size": 1048576,
+            "block_reward": 12.5,
+            "tx_per_second": 7,
+            "tx_min_fee": null,
+            "tx_anonymity": "never",
+            "core_lang": "C++",
+            "smart_contracts": "limited",
+            "blockchain_model": "UTXO",
+            "masternode": false,
+            "masternode_deposit": "NA",
+            "treasury": false,
+            "governance": false,
+            "wikipedia_description": "Bitcoin is a cryptocurrency and a digital payment system invented by an unknown programmer, or a group of programmers, under the name Satoshi Nakamoto. It was released as open-source software in 2009. The system is peer-to-peer, and transactions take place between users directly, without an intermediary. These transactions are verified by network nodes and recorded in a public distributed ledger called a blockchain. Since the system works without a central repository or single administrator, bitcoin is called the first decentralized digital currency. Besides being created as a reward for mining, bitcoin can be exchanged for other currencies, products, and services in legal or black markets. As of February 2015, over 100,000 merchants and vendors accepted bitcoin as payment. According to research produced by Cambridge University in 2017, there are 2.9 to 5.8 million unique users using a cryptocurrency wallet, most of them using bitcoin.",
+            "references": {
+                "blockchain_model": [
+                    "https://bitcoin.stackexchange.com/a/20623",
+                    "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53",
+                    "https://github.com/ethereum/wiki/wiki/Design-Rationale"
+                ],
+                "smart_contracts": [
+                    "https://en.bitcoin.it/wiki/Script"
+                ],
+                "masternode": [
+                    "https://bitcoin.org/bitcoin.pdf"
+                ],
+                "masternode_deposit": [
+                    "https://bitcoin.org/bitcoin.pdf"
+                ],
+                "tx_anonymity": [
+                    "https://bitcoin.org/en/you-need-to-know",
+                    "https://bitcoin.org/en/protect-your-privacy",
+                    "https://en.bitcoin.it/wiki/Anonymity"
+                ],
+                "treasury": [
+                    "https://bitcoin.org/bitcoin.pdf"
+                ],
+                "governance": [
+                    "https://bitcoin.org/bitcoin.pdf"
+                ]
+            }
+        },
+        {
+            "_ver": 20,
+            "name": "Ethereum Classic",
+            "symbol": "ETC",
+            "website_url": [
+                "https://ethereumclassic.github.io"
+            ],
+            "blockchain_explorer_url": [
+                "https://gastracker.io/",
+                "https://etcchain.com/explorer",
+                "http://etherhub.io/home"
+            ],
+            "nodes_explorer_url": [],
+            "message_board_url": [],
+            "twitter_url": [
+                "https://twitter.com/eth_classic"
+            ],
+            "reddit_url": [
+                "https://www.reddit.com/r/EthereumClassic/"
+            ],
+            "telegram_url": [
+                "https://telegram.me/ethclassic"
+            ],
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/Ethereum_Classic"
+            ],
+            "repo_url": [
+                "https://github.com/ethereumproject/go-ethereum"
+            ],
+            "whitepaper_url": [
+                "https://github.com/ethereum/wiki/wiki/White-Paper"
+            ],
+            "announcement_url": [
+                "https://bitcointalk.org/index.php?topic=1559630.0"
+            ],
+            "max_supply": "Inf",
+            "genesis_block_date": 1438203600,
+            "consensus": "proof-of-work",
+            "hash_algo": "Ethash",
+            "block_time": 15,
+            "block_max_size": "Inf",
+            "block_reward": 5,
+            "tx_per_second": 15,
+            "tx_min_fee": null,
+            "tx_anonymity": "never",
+            "core_lang": "go",
+            "smart_contracts": "rich",
+            "blockchain_model": "account",
+            "masternode": false,
+            "masternode_deposit": "NA",
+            "treasury": false,
+            "governance": false,
+            "wikipedia_description": "Ethereum Classic is an open-source, public, blockchain-based distributed computing platform featuring smart contract (scripting) functionality. It provides a decentralized Turing-complete virtual machine, the Ethereum Virtual Machine (EVM), which can execute scripts using an international network of public nodes. Ethereum Classic also provides a value token called \"classic ether\", which can be transferred between participants and is used to compensate participant nodes for computations performed. The classic ether token is traded on cryptocurrency exchanges under the code ETC. Gas, an internal transaction pricing mechanism, is used to prevent spam on the network and allocate resources proportionally to the incentive offered by the request.",
+            "references": {
+                "blockchain_model": [
+                    "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53",
+                    "https://github.com/ethereum/wiki/wiki/Design-Rationale"
+                ],
+                "max_supply": [
+                    "https://www.etcdevteam.com/blog/articles/a-joint-statement-ecip1017.html"
+                ],
+                "genesis_block_date": [
+                    "https://gastracker.io/block/1"
+                ],
+                "consensus": [
+                    "https://steemit.com/eth/@daut44/musings-on-ethereum-ethereum-classic",
+                    "http://ethereum-classic-guide.readthedocs.io/en/latest/mining.html"
+                ],
+                "hash_algo": [
+                    "http://ethereum-classic-guide.readthedocs.io/en/latest/mining.html",
+                    "https://github.com/ethereum/wiki/wiki/Ethash"
+                ],
+                "block_time": [
+                    "http://ethereum-classic-guide.readthedocs.io/en/latest/mining.html"
+                ],
+                "block_max_size": [
+                    "https://ethereum.stackexchange.com/questions/1106/is-there-a-limit-for-transaction-size/1110#1110"
+                ],
+                "block_reward": [
+                    "https://www.cryptocompare.com/coins/etc/overview/BTC"
+                ],
+                "tx_per_second": [
+                    "https://medium.com/@yobanjo/ethereum-wont-scale-like-you-ve-been-told-cae445bef539"
+                ],
+                "core_lang": [
+                    "https://github.com/ethereumproject/go-ethereum"
+                ],
+                "smart_contracts": [
+                    "https://github.com/ethereumclassic/faq#user-content-what-is-a-smart-contract"
+                ],
+                "masternode": [
+                    "https://ethereum-classic-guide.readthedocs.io/en/latest/network/connecting-to-the-network.html#the-ethereum-network"
+                ],
+                "masternode_deposit": [
+                    "https://ethereum-classic-guide.readthedocs.io/en/latest/network/connecting-to-the-network.html#the-ethereum-network"
+                ],
+                "tx_anonymity": [
+                    "https://www.reddit.com/r/ethereum/comments/3uwo9y/anonymity_in_ethereum/"
+                ],
+                "treasury": [
+                    "https://github.com/ethereum/wiki/wiki/White-Paper"
+                ],
+                "governance": [
+                    "https://github.com/ethereum/wiki/wiki/White-Paper"
+                ],
+                "wikipedia_description": [
+                    "https://en.wikipedia.org/wiki/Ethereum_Classic"
+                ]
+            }
+        },
+        {
+            "_ver": 20,
+            "name": "Ripple",
+            "symbol": "XRP",
+            "website_url": [
+                "https://ripple.com"
+            ],
+            "blockchain_explorer_url": [
+                "https://xrpcharts.ripple.com/#/graph/ ",
+                "https://bithomp.com/explorer/",
+                "https://ripple.com/build/data-api-tool/"
+            ],
+            "nodes_explorer_url": [],
+            "message_board_url": [
+                "https://www.xrpchat.com"
+            ],
+            "twitter_url": [
+                "https://twitter.com/Ripple"
+            ],
+            "reddit_url": [
+                "https://www.reddit.com/r/Ripple/"
+            ],
+            "telegram_url": [
+                "https://t.me/Ripple"
+            ],
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/Ripple_(payment_protocol)"
+            ],
+            "repo_url": [
+                "https://github.com/ripple/rippled"
+            ],
+            "whitepaper_url": [
+                "https://ripple.com/files/ripple_vision.pdf",
+                "http://www.ghassankarame.com/ripple.pdf"
+            ],
+            "announcement_url": [],
+            "max_supply": 100000000000,
+            "genesis_block_date": 1356984000,
+            "consensus": "NA",
+            "hash_algo": "SHA-512Half",
+            "block_time": 4,
+            "block_max_size": "Inf",
+            "block_reward": "NA",
+            "tx_per_second": 1000,
+            "tx_min_fee": 1e-05,
+            "tx_anonymity": "never",
+            "core_lang": "C++",
+            "smart_contracts": "none",
+            "blockchain_model": "account",
+            "masternode": true,
+            "masternode_deposit": 0,
+            "treasury": false,
+            "governance": false,
+            "wikipedia_description": "Ripple is a real-time gross settlement system (RTGS), currency exchange and remittance network by Ripple. Also called the Ripple Transaction Protocol (RTXP) or Ripple protocol, it is built upon a distributed open source Internet protocol, consensus ledger and native currency called XRP (ripples). Released in 2012, Ripple purports to enable \"secure, instant and nearly free global financial transactions of any size with no chargebacks.\" It supports tokens representing fiat currency, cryptocurrency, commodity or any other unit of value such as frequent flier miles or mobile minutes. At its core, Ripple is based around a shared, public database or ledger, which uses a consensus process that allows for payments, exchanges and remittance in a distributed process. In 2014, Ripple defended the security of its consensus algorithm against rival Stellar Network. Currently, Ripple is the third-largest cryptocurrency by market capitalization, after bitcoin and Ethereum. Used by companies such as UniCredit, UBS and Santander, the Ripple protocol has been increasingly adopted by banks and payment networks as settlement infrastructure technology, with American Banker explaining that \"from banks' perspective, distributed ledgers like the Ripple system have a number of advantages over cryptocurrencies like bitcoin,\" including price and security.",
+            "references": {
+                "tx_min_fee": [
+                    "https://ripple.com/build/transaction-cost/"
+                ],
+                "blockchain_model": [
+                    "https://bitcoin.stackexchange.com/a/45953"
+                ],
+                "smart_contracts": [
+                    "https://bitcoinmagazine.com/articles/ripple-discontinues-smart-contract-platform-codius-citing-small-market-1435182153/"
+                ],
+                "masternode": [
+                    "https://bitcointalk.org/index.php?topic=1823559.0",
+                    "https://ripple.com/technical-faq-ripple-consensus-ledger/"
+                ],
+                "masternode_deposit": [
+                    "https://ripple.com/technical-faq-ripple-consensus-ledger/"
+                ],
+                "tx_anonymity": [
+                    "https://petsymposium.org/2017/papers/issue3/paper21-2017-3-source.pdf"
+                ],
+                "treasury": [
+                    "https://ripple.com/files/ripple_vision.pdf"
+                ],
+                "governance": [
+                    "https://ripple.com/files/ripple_vision.pdf"
+                ],
+                "wikipedia_description": [
+                    "https://en.wikipedia.org/wiki/Ripple_(payment_protocol)"
+                ]
+            }
+        },
+        {
+            "_ver": 20,
+            "name": "Dash",
+            "symbol": "DASH",
+            "website_url": [
+                "https://www.dash.org",
+                "http://dashorg64cjvj4s3.onion",
+                "https://dashpay.atlassian.net/wiki"
+            ],
+            "blockchain_explorer_url": [
+                "https://explorer.dash.org/chain/Dash",
+                "https://chainz.cryptoid.info/dash/",
+                "https://bitinfocharts.com/dash/explorer/"
+            ],
+            "nodes_explorer_url": [
+                "https://chainz.cryptoid.info/dash/masternodes.dws",
+                "https://bitinfocharts.com/dash/nodes-active/",
+                "https://www.dashninja.pl/masternodes.html"
+            ],
+            "message_board_url": [
+                "https://www.dash.org/forum/"
+            ],
+            "twitter_url": [
+                "https://twitter.com/Dashpay"
+            ],
+            "reddit_url": [
+                "http://www.reddit.com/r/dashpay/"
+            ],
+            "telegram_url": [
+                "https://t.me/DashDigitalCash"
+            ],
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/Dash_(cryptocurrency)"
+            ],
+            "repo_url": [
+                "https://github.com/dashpay/dash"
+            ],
+            "whitepaper_url": [
+                "https://www.dash.org/wp-content/uploads/2015/04/Dash-WhitepaperV1.pdf",
+                "https://github.com/dashpay/dash/wiki/Whitepaper",
+                "https://www.dash.org/binaries/evo/DashPaper-v13-v1.pdf"
+            ],
+            "announcement_url": [
+                "https://bitcointalk.org/index.php?topic=421615.0"
+            ],
+            "max_supply": 18600000,
+            "genesis_block_date": 1390075200,
+            "consensus": "proof-of-work",
+            "hash_algo": "X11",
+            "block_time": 150,
+            "block_max_size": 1048576,
+            "block_reward": 3.6,
+            "tx_per_second": 28,
+            "tx_min_fee": 0,
+            "tx_anonymity": "optional",
+            "core_lang": "C++",
+            "smart_contracts": "limited",
+            "blockchain_model": "UTXO",
+            "masternode": true,
+            "masternode_deposit": 1000,
+            "treasury": true,
+            "governance": true,
+            "wikipedia_description": "Dash (formerly known as Darkcoin and XCoin) is an open source peer-to-peer cryptocurrency that offers all the same features as Bitcoin but also has advanced capabilities, including instant transactions (InstantSend), private transactions (PrivateSend), and decentralized governance (DGBB). Dash's decentralized governance and budgeting system makes it the first decentralized autonomous organization. Dash uses a two-tier architecture to power its network. The first tier consists of miners who secure the network and write transactions to the blockchain. The second tier consists of masternodes which enable the advanced features of Dash.",
+            "references": {
+                "genesis_block_date": [
+                    "https://chainz.cryptoid.info/dash/block.dws?1.htm"
+                ],
+                "hash_algo": [
+                    "https://www.dash.org/wp-content/uploads/2015/04/Dash-WhitepaperV1.pdf"
+                ],
+                "consensus": [
+                    "https://www.reddit.com/r/dashpay/comments/5zdmom/why_is_dash_not_considered_pos/"
+                ],
+                "max_supply": [
+                    "https://dash.org.ru/pages/emission.php",
+                    "https://www.dashtreasury.org/faq-general.html"
+                ],
+                "block_time": [
+                    "https://www.reddit.com/r/dashpay/comments/3yt70h/so_i_have_to_ask_the_question_what_is_dashs/"
+                ],
+                "block_max_size": [
+                    "https://www.reddit.com/r/dashpay/comments/3yt70h/so_i_have_to_ask_the_question_what_is_dashs/"
+                ],
+                "block_reward": [
+                    "https://bitinfocharts.com/dash/explorer/"
+                ],
+                "tx_per_second": [
+                    "https://www.reddit.com/r/dashpay/comments/5yw0yy/how_many_transactions_per_second_can_dash_handle/"
+                ],
+                "tx_min_fee": [
+                    "https://www.reddit.com/r/dashpay/comments/5yw0yy/how_many_transactions_per_second_can_dash_handle/"
+                ],
+                "core_lang": [
+                    "https://github.com/dashpay/dash"
+                ],
+                "smart_contracts": [
+                    "https://github.com/dashpay/bitcore-lib-dash/blob/master/docs/script.md"
+                ],
+                "blockchain_model": [
+                    "https://github.com/dashpay/dash/wiki/Whitepaper"
+                ],
+                "masternode": [
+                    "https://github.com/dashpay/dash/wiki/Whitepaper"
+                ],
+                "masternode_deposit": [
+                    "https://github.com/dashpay/dash/wiki/Whitepaper"
+                ],
+                "tx_anonymity": [
+                    "https://www.dash.org/darksend/"
+                ],
+                "governance": [
+                    "https://www.dash.org/forum/threads/self-sustainable-decentralized-governance-by-blockchain.4708/",
+                    "https://dashvotetracker.com/"
+                ],
+                "treasury": [
+                    "https://www.dashtreasury.org/"
+                ],
+                "wikipedia_description": [
+                    "https://en.wikipedia.org/wiki/Dash_(cryptocurrency)"
+                ]
+            }
+        },
+        {
+            "_ver": 20,
+            "name": "Litecoin",
+            "symbol": "LTC",
+            "website_url": [
+                "https://litecoin.com",
+                "https://litecoin.org",
+                "https://litecoin.info"
+            ],
+            "blockchain_explorer_url": [
+                "http://explorer.litecoin.net/chain/Litecoin",
+                "https://chainz.cryptoid.info/ltc/",
+                "https://bitinfocharts.com/ru/litecoin/explorer/"
+            ],
+            "nodes_explorer_url": [
+                "https://bitinfocharts.com/litecoin/nodes/"
+            ],
+            "message_board_url": [
+                "https://litecointalk.io/"
+            ],
+            "twitter_url": [
+                "https://twitter.com/LitecoinProject"
+            ],
+            "reddit_url": [
+                "https://www.reddit.com/r/litecoin/"
+            ],
+            "telegram_url": [
+                "https://t.me/Litecoin"
+            ],
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/Litecoin"
+            ],
+            "repo_url": [
+                "https://github.com/litecoin-project/litecoin"
+            ],
+            "whitepaper_url": [
+                "https://litecoin.info/Litecoin",
+                "https://litecoin.info/User:Iddo/Comparison_between_Litecoin_and_Bitcoin"
+            ],
+            "announcement_url": [],
+            "max_supply": 84000000,
+            "genesis_block_date": 1318017600,
+            "consensus": "proof-of-work",
+            "hash_algo": "scrypt",
+            "block_time": 150,
+            "block_max_size": 1048576,
+            "block_reward": 25,
+            "tx_per_second": null,
+            "tx_min_fee": 0.001,
+            "tx_anonymity": "never",
+            "core_lang": "C++",
+            "smart_contracts": "limited",
+            "blockchain_model": "UTXO",
+            "masternode": false,
+            "masternode_deposit": "NA",
+            "treasury": false,
+            "governance": false,
+            "wikipedia_description": "Litecoin (LTC or Ł) is a peer-to-peer cryptocurrency and open source software project released under the MIT/X11 license. Creation and transfer of coins is based on an open source cryptographic protocol and is not managed by any central authority. While inspired by, and in most regards technically nearly identical to Bitcoin (BTC), Litecoin has some technical improvements over Bitcoin, and most other major cryptocurrencies, such as the adoption of Segregated Witness, and the Lightning Network. These effectively allow a greater amount of transactions to be processed by the network in a given time, reducing potential bottlenecks, as seen with Bitcoin. Litecoin also has almost zero payment cost and facilitates payments approximately four times faster than Bitcoin.",
+            "references": {
+                "max_supply": [
+                    "https://litecoin.info/Litecoin"
+                ],
+                "consensus": [
+                    "https://litecoin.info/Litecoin"
+                ],
+                "hash_algo": [
+                    "https://litecoin.info/Litecoin",
+                    "https://litecoin.info/Scrypt"
+                ],
+                "block_time": [
+                    "https://litecoin.info/Litecoin"
+                ],
+                "block_max_size": [
+                    "https://www.reddit.com/r/litecoin/comments/523jlw/does_litecoin_have_a_blocksize_limit/"
+                ],
+                "block_reward": [
+                    "https://bitinfocharts.com/ru/litecoin/explorer/"
+                ],
+                "core_lang": [
+                    "https://github.com/litecoin-project/litecoin"
+                ],
+                "tx_min_fee": [
+                    "https://litecoin.info/Transaction_fees"
+                ],
+                "genesis_block_date": [
+                    "https://chainz.cryptoid.info/ltc/block.dws?1.htm"
+                ],
+                "blockchain_model": [
+                    "https://bitcointalk.org/index.php?topic=1625340.0"
+                ],
+                "smart_contracts": [
+                    "https://github.com/litecoin-project/litecoin/pull/279"
+                ],
+                "masternode": [
+                    "https://litecoin.info/Litecoin"
+                ],
+                "masternode_deposit": [
+                    "https://litecoin.info/Litecoin"
+                ],
+                "tx_anonymity": [
+                    "https://bitcoin.org/en/you-need-to-know",
+                    "https://www.reddit.com/r/litecoin/comments/53c0v6/confidential_transaction_for_litecoin/",
+                    "https://bitcoin.stackexchange.com/questions/18946/is-it-possible-to-launder-bitcoin-by-exchanging-it-for-litecoin-and-then-back-to"
+                ],
+                "treasury": [
+                    "https://litecoin.info/User:Iddo/Comparison_between_Litecoin_and_Bitcoin"
+                ],
+                "governance": [
+                    "https://litecoin.info/User:Iddo/Comparison_between_Litecoin_and_Bitcoin"
+                ],
+                "wikipedia_description": [
+                    "https://en.wikipedia.org/wiki/Litecoin"
+                ]
+            }
+        },
+        {
+            "_ver": 20,
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "website_url": [
+                "https://www.ethereum.org"
+            ],
+            "blockchain_explorer_url": [
+                "https://live.ether.camp",
+                "https://etherscan.io"
+            ],
+            "nodes_explorer_url": [
+                "https://www.ethernodes.org/network/1",
+                "https://www.ethernodes.org/network/1/nodes"
+            ],
+            "message_board_url": [
+                "https://forum.ethereum.org"
+            ],
+            "twitter_url": [
+                "https://twitter.com/ethereumproject"
+            ],
+            "reddit_url": [
+                "https://www.reddit.com/r/ethereum/"
+            ],
+            "telegram_url": [],
+            "wikipedia_url": [
+                "https://en.wikipedia.org/wiki/Ethereum"
+            ],
+            "repo_url": [
+                "https://github.com/ethereum/go-ethereum"
+            ],
+            "whitepaper_url": [
+                "https://github.com/ethereum/wiki/wiki/White-Paper"
+            ],
+            "announcement_url": [],
+            "max_supply": "Inf",
+            "genesis_block_date": 1438203600,
+            "consensus": "proof-of-work",
+            "hash_algo": "Ethash",
+            "block_time": 15,
+            "block_max_size": "Inf",
+            "block_reward": 5,
+            "tx_per_second": 15,
+            "tx_min_fee": null,
+            "tx_anonymity": "never",
+            "core_lang": "go",
+            "smart_contracts": "rich",
+            "blockchain_model": "account",
+            "masternode": false,
+            "masternode_deposit": "NA",
+            "treasury": false,
+            "governance": false,
+            "wikipedia_description": "Ethereum is an open-source, public, blockchain-based distributed computing platform featuring smart contract (scripting) functionality, which facilitates online contractual agreements. It provides a decentralized Turing-complete virtual machine, the Ethereum Virtual Machine (EVM), which can execute scripts using an international network of public nodes. Ethereum also provides a cryptocurrency  token called \"ether\", which can be transferred between accounts and used to compensate participant nodes for computations performed. \"Gas\", an internal transaction pricing mechanism, is used to mitigate spam and allocate resources on the network. Ethereum was proposed in late 2013 by Vitalik Buterin, a cryptocurrency researcher and programmer. Development was funded by an online crowdsale during July–August 2014. The system went live on 30 July 2015, with 11.9 million coins \"premined\" for the crowdsale. This accounts for approximately 13 percent of the total circulating supply. In 2016 Ethereum was forked into two blockchains, as a result of the collapse of The DAO project. The majority fork has retained the name Ethereum (the subject of this article), and the second fork named Ethereum Classic.",
+            "references": {
+                "blockchain_model": [
+                    "https://medium.com/@ConsenSys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53",
+                    "https://github.com/ethereum/wiki/wiki/Design-Rationale"
+                ],
+                "consensus": [
+                    "https://steemit.com/eth/@daut44/musings-on-ethereum-ethereum-classic"
+                ],
+                "masternode": [
+                    "https://forum.ethereum.org/discussion/4393/is-ethereum-heading-towards-a-dash-masternode-type-of-format"
+                ],
+                "masternode_deposit": [
+                    "https://forum.ethereum.org/discussion/4393/is-ethereum-heading-towards-a-dash-masternode-type-of-format"
+                ],
+                "tx_anonymity": [
+                    "https://www.reddit.com/r/ethereum/comments/3uwo9y/anonymity_in_ethereum/"
+                ],
+                "treasury": [
+                    "https://github.com/ethereum/wiki/wiki/White-Paper"
+                ],
+                "governance": [
+                    "https://github.com/ethereum/wiki/wiki/White-Paper"
+                ],
+                "wikipedia_description": [
+                    "https://en.wikipedia.org/wiki/Ethereum"
+                ]
+            }
+        }
+    ]
+}
