@@ -126,7 +126,7 @@ def create_build_files():
 
 def main():
     # First, validate data
-    check_call('pytest', shell=True)
+    check_call('pytest', shell=False)
     # Now we can be sure data are valid
     # so we do not need to do lot of validation
     # and can focus on data modification
