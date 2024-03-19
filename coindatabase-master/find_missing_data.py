@@ -9,7 +9,7 @@ def main(**kwargs):
         try:
             coin = json.load(open(fname))
         except ValueError as ex:
-            logging.error('Error in %s' % fname, exc_info=ex)
+            logging.error('Error in %s', fname, exc_info=ex)
         else:
             missing = []
             for key, val in coin.items():
